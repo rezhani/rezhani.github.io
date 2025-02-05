@@ -16,13 +16,14 @@ body {
   grid-area: sidebar;
   background: linear-gradient(
     to right,
-    rgba(200, 107, 142, 1),
-    rgba(218, 105, 250, 1),
-    rgba(110, 125, 253, 1)
+    rgba(10, 25, 47, 1),   /* Biru navy gelap */
+    rgba(32, 82, 149, 1),  /* Biru royal */
+    rgba(100, 181, 246, 1) /* Biru terang soft */
   );
   justify-content: center;
-
 }
+
+
  
 .footer {
   grid-area: footer;
@@ -197,10 +198,11 @@ footer p {
   .sidebar {
     background: linear-gradient(
       to bottom,
-      rgba(200, 107, 142, 1),
-      rgba(218, 105, 250, 1),
-      rgba(110, 125, 253, 1)
-    );
+    rgba(10, 25, 47, 1),   /* Biru navy gelap */
+    rgba(32, 82, 149, 1),  /* Biru royal */
+    rgba(100, 181, 246, 1) /* Biru terang soft */
+  );
+  
     padding-top: 10em;
     min-height: 78%; /* Pastikan sidebar mencapai footer */
     display: flex;
